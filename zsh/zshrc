@@ -84,4 +84,12 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+alias c="clear"
+alias editzsh="nano ~/.zshrc"
+alias code="cd Documents/Code"
+alias setzsh="source ~/.zshrc"
+alias l="ls -als"
+alias g="git"
+autoload -U promptinit; promptinit
+prompt pure
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

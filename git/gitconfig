@@ -1,0 +1,8 @@
+[user]
+	name = John Behnke
+	email = behnkej@me.com
+[core]
+	editor = nano
+	excludesfile = ~/.gitignore_global
+[merge]
+	tool = opendiff
