@@ -7,7 +7,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="materialshelloceanic"
+ZSH_THEME="robbyrussell"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -90,6 +90,13 @@ alias code="cd Documents/Code"
 alias setzsh="source ~/.zshrc"
 alias l="ls -als"
 alias g="git"
+alias kwmstart="brew services start kwm"
+alias kwmstop="brew services stop kwm"
+alias kwmrestart="brew services restart kwm"
+alias resetLaunchpad="defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock"
 autoload -U promptinit; promptinit
 prompt pure
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

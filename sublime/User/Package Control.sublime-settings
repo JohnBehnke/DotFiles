@@ -1,0 +1,33 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"Better CoffeeScript",
+		"DashDoc",
+		"Electron Color Scheme",
+		"File Navigator",
+		"HTMLBeautify",
+		"Javascript Beautify",
+		"Material Theme",
+		"Non Text Files",
+		"One Dark Material - Theme",
+		"Package Control",
+		"Package Syncing",
+		"PostgreSQL Syntax Highlighting",
+		"SublimeAStyleFormatter",
+		"SublimeLinter",
+		"SublimeLinter-contrib-clang",
+		"SublimeLinter-contrib-swiftlint",
+		"SublimeLinter-pyflakes",
+		"Swift",
+		"termX"
+	],
+	"repositories":
+	[
+		"https://github.com/equinusocio/material-theme-appbar.git"
+	]
+}
