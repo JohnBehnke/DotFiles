@@ -6,28 +6,15 @@
 	"installed_packages":
 	[
 		"A File Icon",
-		"Better CoffeeScript",
 		"DashDoc",
-		"Electron Color Scheme",
-		"File Navigator",
 		"HTMLBeautify",
-		"Javascript Beautify",
-		"Material Theme",
-		"Non Text Files",
-		"One Dark Material - Theme",
+		"Markdown HTML Preview",
 		"Package Control",
-		"Package Syncing",
-		"PostgreSQL Syntax Highlighting",
-		"SublimeAStyleFormatter",
 		"SublimeLinter",
-		"SublimeLinter-contrib-clang",
-		"SublimeLinter-contrib-swiftlint",
-		"SublimeLinter-pyflakes",
-		"Swift",
-		"termX"
-	],
-	"repositories":
-	[
-		"https://github.com/equinusocio/material-theme-appbar.git"
+		"SublimeLinter Inline Errors",
+		"SublimeLinter-annotations",
+		"Swift for F*ing Sublime",
+		"termX",
+		"Twig"
 	]
 }
