@@ -2,29 +2,10 @@
     "user": {
         "debug": false, 
         "delay": 0.25, 
-        "error_color": "F44336", 
-        "gutter_theme": "Packages/Material Theme/extras/SublimeLinter/Material-Theme.gutter-theme", 
+        "error_color": "D02000", 
+        "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme", 
         "gutter_theme_excludes": [], 
         "lint_mode": "background", 
-        "linters": {
-            "clang": {
-                "@disable": false, 
-                "args": [], 
-                "excludes": [], 
-                "extra_flags": "", 
-                "include_dirs": []
-            }, 
-            "pyflakes": {
-                "@disable": false, 
-                "args": [], 
-                "excludes": []
-            }, 
-            "swiftlint": {
-                "@disable": false, 
-                "args": [], 
-                "excludes": []
-            }
-        }, 
         "mark_style": "outline", 
         "no_column_highlights_line": false, 
         "passive_warnings": false, 
@@ -67,6 +48,7 @@
             "magicpython": "python", 
             "php": "html", 
             "python django": "python", 
+            "pythonimproved": "python", 
             "xml (config)": "xml", 
             "xml (svg)": "xml", 
             "yaml (circleci)": "yaml", 
@@ -78,10 +60,10 @@
             "yaml (yarn)": "yaml"
         }, 
         "tooltip_fontsize": "1rem", 
-        "tooltip_theme": "Packages/SublimeLinter/tooltip-themes/Inline/Inline.tooltip-theme", 
+        "tooltip_theme": "Packages/SublimeLinter/tooltip-themes/Default/Default.tooltip-theme", 
         "tooltip_theme_excludes": [], 
-        "tooltips": true, 
-        "warning_color": "FFEB3B", 
+        "tooltips": false, 
+        "warning_color": "DDB700", 
         "wrap_find": true
     }
 }

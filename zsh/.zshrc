@@ -1,14 +1,13 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
-
+export PATH=/usr/local/sbin:$PATH
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="robbyrussell"
-
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -51,7 +50,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git, zsh-autosuggestions, zsh-syntax-highlighting, colorize, github, osx, brew, python)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -86,17 +85,22 @@ source $ZSH/oh-my-zsh.sh
 
 alias c="clear"
 alias editzsh="nano ~/.zshrc"
-alias code="cd Documents/Code"
+
 alias setzsh="source ~/.zshrc"
 alias l="ls -als"
 alias g="git"
-alias kwmstart="brew services start kwm"
-alias kwmstop="brew services stop kwm"
-alias kwmrestart="brew services restart kwm"
 alias resetLaunchpad="defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock"
-autoload -U promptinit; promptinit
-prompt pure
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
+alias gohome="ssh john@home"
+alias starwars="telnet towel.blinkenlights.nl"
+alias serveme="python -m SimpleHTTPServer"
+alias sleepDisplay="pmset displaysleepnow"
+alias please='sudo $(fc -ln -1)'
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
+alias filep="stat -f '%A'"
+eval "$(thefuck --alias)"
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+eval $(thefuck --alias)
+

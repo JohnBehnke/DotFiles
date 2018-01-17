@@ -1,53 +1,8 @@
 {
-	"added_words":
-	[
-		"Behnke"
-	],
-	"always_show_minimap_viewport": true,
-	"auto_complete_triggers":
-	[
-		{
-			"characters": ".:>",
-			"selector": "source.c++ - string - comment - constant.numeric"
-		}
-	],
-	"autoformat_on_save": true,
-	"bold_folder_labels": true,
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Palenight.tmTheme",
-	"draw_minimap_border": true,
-	"font_options":
-	[
-		"subpixel_antialias"
-	],
-	"font_size": 12,
+	"color_scheme": "Packages/User/SublimeLinter/Mariana (SL).tmTheme",
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"indent_guide_options":
-	[
-		"draw_normal",
-		"draw_active"
-	],
-	"line_padding_bottom": 3,
-	"line_padding_top": 3,
-	"material_theme_accent_scrollbars": true,
-	"material_theme_accent_yellow": true,
-	"material_theme_appbar_orange": true,
-	"material_theme_compact_sidebar": true,
-	"material_theme_small_tab": true,
-	"material_theme_tabs_autowidth": true,
-	"material_theme_tree_headings": true,
-	"open_externally_patterns":
-	[
-		"*.pdf"
-	],
-	"overlay_scroll_bars": "enabled",
-	"prevent_bin_preview": true,
-	"scroll_past_end": true,
-	"tab_size": 4,
-	"theme": "Material-Theme-Palenight.sublime-theme",
-	"translate_tabs_to_spaces": true,
-	"use_simple_full_screen": true,
-	"word_wrap": "false"
+	"theme": "Adaptive.sublime-theme"
 }
