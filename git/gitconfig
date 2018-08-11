@@ -1,12 +1,17 @@
 [user]
 	name = John Behnke
 	email = behnkej@me.com
+	useconfigonly = true
 [core]
 	editor = nano
 	excludesfile = ~/.gitignore_global
+[github]
+  user = johnbehnke
 [merge]
 	tool = opendiff
 [alias]
 	tree = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset%n' --abbrev-commit --date=relative --branches
+	restart = !git clean -fd :/ && git reset --hard HEAD
+	nuke = !git reset --hard origin/HEAD
 [mergetool]
-	keepBackup = true
+	keepBackup = false
